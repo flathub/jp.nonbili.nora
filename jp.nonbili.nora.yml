@@ -38,12 +38,12 @@ modules:
     sources:
       - type: archive
         url: https://github.com/nonbili/Nora-Desktop/releases/download/v0.1.7/source.tar.gz
-        sha256: 9b9363dfffe000b878c0b7228c22db44c8d2b12efa2de6276d2b9dd0bf2b085a
+        sha256: 411ee0984136523b9b064638e6a0de1a23ee063bdac7b4e3452b7b393cb9f73f
         strip-components: 0
 
       - type: archive
         url: https://github.com/nonbili/Nora-Desktop/releases/download/v0.1.7/node_modules-x64.tar.gz
-        sha256: 591807b7054d19f3221c0547135aa6dcd3385f3e84cfc2fdd198672a34d226b1
+        sha256: 38daeaa2fff33111cd478962c0341f87cdc5a3fef8f52f2f42ade6cff5f3d47e
         dest: node_modules
         only-arches: [x86_64]
 
@@ -62,7 +62,7 @@ modules:
 
       - type: archive
         url: https://github.com/nonbili/Nora-Desktop/releases/download/v0.1.7/node_modules-arm64.tar.gz
-        sha256: 32c7f4e4a3a4fcbb73836e9ab4ab113806a60cde4aa77471eb84f212ca412f65
+        sha256: 7ec7feb8b1e62ec5f5ad0d305211006c0f1a8fed18b24449f5bfeb070082e404
         dest: node_modules
         only-arches: [aarch64]
 
