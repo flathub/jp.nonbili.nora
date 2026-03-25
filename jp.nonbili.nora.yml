@@ -37,13 +37,13 @@ modules:
       - install -Dm644 desktop/icon.png /app/share/icons/hicolor/512x512/apps/jp.nonbili.nora.png
     sources:
       - type: archive
-        url: https://github.com/nonbili/Nora-Desktop/releases/download/v0.1.7/source.tar.gz
-        sha256: 411ee0984136523b9b064638e6a0de1a23ee063bdac7b4e3452b7b393cb9f73f
+        url: https://github.com/nonbili/Nora-Desktop/releases/download/v0.1.8/source.tar.gz
+        sha256: 6866f8fa48d1ef70586067a0922ca8dd84a72eea3ff68bdaf6faaab341fe680d
         strip-components: 0
 
       - type: archive
-        url: https://github.com/nonbili/Nora-Desktop/releases/download/v0.1.7/node_modules-x64.tar.gz
-        sha256: 38daeaa2fff33111cd478962c0341f87cdc5a3fef8f52f2f42ade6cff5f3d47e
+        url: https://github.com/nonbili/Nora-Desktop/releases/download/v0.1.8/node_modules-x64.tar.gz
+        sha256: 3a5cdf2d33ad001185c0a8cc0978b588b0ffa7746ee649f51646b1ee548f5865
         dest: node_modules
         only-arches: [x86_64]
 
@@ -61,8 +61,8 @@ modules:
         only-arches: [x86_64]
 
       - type: archive
-        url: https://github.com/nonbili/Nora-Desktop/releases/download/v0.1.7/node_modules-arm64.tar.gz
-        sha256: 7ec7feb8b1e62ec5f5ad0d305211006c0f1a8fed18b24449f5bfeb070082e404
+        url: https://github.com/nonbili/Nora-Desktop/releases/download/v0.1.8/node_modules-arm64.tar.gz
+        sha256: adf4905f539590466f302148a8b5ad47f9c6533a88b97cf50d1fdf576aef4d72
         dest: node_modules
         only-arches: [aarch64]
 
