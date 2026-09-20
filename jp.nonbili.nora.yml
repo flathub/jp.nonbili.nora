@@ -16,6 +16,7 @@ finish-args:
   - --socket=pulseaudio
   - --share=network
   - --own-name=org.mpris.MediaPlayer2.chromium.*
+  - --talk-name=org.freedesktop.Notifications
 modules:
   - name: nora
     buildsystem: simple
@@ -37,13 +38,13 @@ modules:
       - install -Dm644 desktop/icon.png /app/share/icons/hicolor/512x512/apps/jp.nonbili.nora.png
     sources:
       - type: archive
-        url: https://github.com/nonbili/Nora-Desktop/releases/download/v0.2.7/source.tar.gz
-        sha256: 7cd23b4d29e64b08223b7e9c167ad0b2c61d127b658939c4e3dc4565f824abaa
+        url: https://github.com/nonbili/Nora-Desktop/releases/download/v0.2.8/source.tar.gz
+        sha256: 408ad4b694143aae198bd8461ceb14f04105adc4734efe87568eadcf72d6a351
         strip-components: 0
 
       - type: archive
-        url: https://github.com/nonbili/Nora-Desktop/releases/download/v0.2.7/node_modules-x64.tar.gz
-        sha256: 30af77bc20e970e489a6362ba598bc944baa9f28c6912312e223d606fb78dd1c
+        url: https://github.com/nonbili/Nora-Desktop/releases/download/v0.2.8/node_modules-x64.tar.gz
+        sha256: dce0ec892670e50215d625f1e91075a7f0779744e4f770708f461638ddc3b0c5
         dest: node_modules
         only-arches: [x86_64]
 
@@ -61,8 +62,8 @@ modules:
         only-arches: [x86_64]
 
       - type: archive
-        url: https://github.com/nonbili/Nora-Desktop/releases/download/v0.2.7/node_modules-arm64.tar.gz
-        sha256: e4070f656599cbd4b45ccc46a0e4b31425bc2dd9e61d73c3f27c59f34cf4d6dd
+        url: https://github.com/nonbili/Nora-Desktop/releases/download/v0.2.8/node_modules-arm64.tar.gz
+        sha256: cff3cfb1fa4cbfdd53a21110299dc7b5ec25052fb101eb6295b06d4b59344619
         dest: node_modules
         only-arches: [aarch64]
 
